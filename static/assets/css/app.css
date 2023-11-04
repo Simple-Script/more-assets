@@ -1,0 +1,106 @@
+@font-face {
+  font-family: inter;
+  src: url(/assets/fonts/inter.ttf);
+}
+
+body {
+  background: #03131a;
+  color: #fff;
+  font-family: inter;
+  font-size: 16px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #03131a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1cd96a;
+  border-radius: 6px;
+}
+
+input {
+  border: none;
+  padding: 15px 20px;
+  width: 50%;
+  background-color: #1f2228;
+  color: white;
+  outline: 1px solid #495057;
+  font-family: inter;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.2s;
+  opacity: 100%;
+  z-index: 1;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.4);
+}
+
+p {
+  font-family: inter;
+  font-size: 14px;
+  line-height: 2;
+}
+
+::placeholder {
+  font-family: inter;
+}
+
+
+h1 {
+  font-size: 45.5px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: inter;
+  margin: none;
+}
+
+h3 {
+  font-family: inter;
+  font-size: 26px;
+}
+
+.shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.square_btn img {
+    width: 103px;
+    height: 103px;
+}
+
+.square_btn {
+  display: inline-block;
+  text-align: center;
+  height: 115px;
+  width: 115px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: solid 2px transparent;
+  border-radius: 20px;
+  transition: .2s;
+  font-family: inter;
+  margin: 20px;
+}
+
+.square_btn:hover {
+    background: #1f2228;
+    color: white;
+    border: 1px solid #495057;
+    border-radius: 20px;
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
