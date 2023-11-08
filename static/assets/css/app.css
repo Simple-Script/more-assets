@@ -26,11 +26,10 @@ input {
   width: 50%;
   background-color: #1f2228;
   color: white;
-  outline: 1px solid #495057;
   font-family: inter;
   font-size: 16px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: 0.2s;
   opacity: 100%;
   z-index: 1;
